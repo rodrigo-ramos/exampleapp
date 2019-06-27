@@ -42,7 +42,7 @@ INSTALLED_APPS = [
 
 ELASTIC_APM = {
     'SERVICE_NAME': 'polls',
-    'SERVER_URL': 'http://apm-server:8200'
+    'SERVER_URL': ${ELASTIC_APM_SERVER_URL}:8200'
 }
 
 MIDDLEWARE = [

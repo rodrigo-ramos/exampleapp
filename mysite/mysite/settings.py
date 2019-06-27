@@ -40,6 +40,11 @@ INSTALLED_APPS = [
     'elasticapm.contrib.django',
 ]
 
+ELASTIC_APM = {
+    'SERVICE_NAME': 'polls',
+    'SERVER_URL': 'http://apm-server:8200'
+}
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',

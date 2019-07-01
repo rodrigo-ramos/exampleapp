@@ -25,7 +25,7 @@ SECRET_KEY = '9)jn8%)stf5yb41s!3v@vx6pfukr67=!%mklh5*u25)n5u-jo!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.16.161.8','rodrigoramosgo1c.mylabserver.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

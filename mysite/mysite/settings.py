@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 ]
 
 ELASTIC_APM = {
-    'SERVICE_NAME': 'polls',
+    'SERVICE_NAME': 'mysite',
     'SERVER_URL': '${ELASTIC_APM_SERVER_URL}:${ELASTIC_APM_SERVER_PORT}',
     'DEBUG': 'True',
 }
